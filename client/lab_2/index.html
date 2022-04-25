@@ -1,45 +1,109 @@
-YOUR NAME Lab 2: CSS Selectors
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lab 2</title>
+  </head>
+  <body class="wrapper">
+    <div>
+      <h1 class="header">YOUR NAME Lab 2: CSS Selectors</h1>
+      <nav>
+        <a href="./selectors.html">Selectors</a>
+        <a href="./index.html">Main page</a>
+      </nav>
+      <div class="container">
+        <h2 class="subtitle">First, the basics.</h2>
+        <p class="default">You need the following to build your website.</p>
+        <div class="section_1">
+          <div>
+            <ul>
+              <li>HTML and CSS</li>
+              <li>Javascript</li>
+              <li>Node.js</li>
+              <li>And other web development frameworks</li>
+            </ul>
+          </div>
 
-Selectors
-Main Page
+          <div>
+            <p>You should list your top 3 goals for the class below.</p>
+            <ol>
+              <li>Learn front-end web design</li>
+              <li>Learn new programming languages</li>
+              <li>Learn how to work with others in a technical space</li>
+              <li>Learn popular web dev frameworks</li>
+            </ol>
+          </div>
+        </div>
 
-First, the basics.
+        <div class="section_2">
+          <h2 class="subtitle">Let's Try Some Inline Elements</h2>
+          <p class="default">
+            Sometimes you want to <em>draw attention to something</em> in a line
+            of text.
+          </p>
+          <p class="default">
+            Sometimes you want to
+            <strong>strongly emphasize something</strong> in the text.
+          </p>
+          <p class="default">
+            Sometimes you want to <strong><em>do both</em></strong
+            >.
+          </p>
+        </div>
 
-You need the following to build your website.
-
-HTML and CSS
-Javascript
-Node.js
-And other web development frameworks
-
-You should list your top 3 goals for the class below.
-
-Learn front-end web design
-Learn new programming languages
-Learn how to work with others in a technical space
-Learn popular web dev frameworks
-
-Let's Try Some Inline Elements
-
-Sometimes you want to draw attention to something in a line of text.
-
-Sometimes you want to strongly emphasize something in the text.
-
-Sometimes you want to do both.
-
-Empty Elements
-
-Soft line breaks can't wrap anything. Neither can image tags, or hard lines.
-Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
-
-Images 
-Don't forget to use alt text on your images. It's important for accessibility.
-If you build this page right, your images will form a small "carousel"
-
-onigiri_1
-onigiri_2
-onigiri_3
-onigiri_4
-
-Include a hyperlink here to your github repository for class.
-If you want your repo to be private, be sure to invite Prof A as a "collaborator."
+        <div class="section_3">
+          <h3 class="basic">Empty Elements</h3>
+          Soft line breaks can't wrap anything.<br />
+          Neither can image tags, or hard lines.<br />
+          Add a hard line under here, and break the previous two lines using a
+          soft line break.
+          <hr />
+        </div>
+        <div class="section_4">
+          <div class="text">
+            <h2 class="subtitle">Images</h2>
+            <p class="default">
+              Include the four images in the Lab 1 /images folder below
+            </p>
+            <p class="default">
+              Don't forget to use alt text on your images. It's important for
+              accessibility.
+            </p>
+          </div>
+          <div class="grid">
+              <img id="slide_1" src="images/mochi.png" alt="A rice ball" />
+              <img
+                id="slide_2"
+                src="images/mochi.jpg"
+                alt="Another rice ball"
+              />
+              <img
+                id="slide_3"
+                src="images/mochi.gif"
+                alt="Third rice ball"
+              />
+              <img
+                id="slide_4"
+                src="images/mochi.svg"
+                alt="Fourth ball of rice"
+              />
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <hr />
+        <p class="default">
+          <a href="https://github.com/aeleitch1" target="_blank"
+            >My github repository can be found here.</a
+          >
+        </p>
+        <p class="default">
+          If you want your repo to be private, be sure to invite Prof A as a
+          "collaborator."
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
